@@ -2,7 +2,7 @@ import os
 import requests
 import json
 apikey = os.environ['IBM_API_KEY']
-#https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/e6ff0d30-1e83-4ccc-b53a-39f13f06e8ab/v3/translate?version=2018-05-01
+
 url = os.environ['IBM_URL']
 headers = {'content-type': 'application/json'}
 
